@@ -22,6 +22,8 @@ This repository was created to store the exercises developed during the Java Boo
 - [X] 2.3: [Brazilian States](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/2.3-brazilian-states)
 - [X] 2.4: [Random Numbers](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/2.4-random-numbers)
 
+**:open_file_folder: 03 | Java Essentials - Hello World**
+
 
 ## :wave: Let's connect!
 Get in touch on [LinkedIn](https://www.linkedin.com/in/barreto-pedro/).
