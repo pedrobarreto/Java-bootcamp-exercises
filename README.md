@@ -17,6 +17,11 @@ This repository was created to store the exercises developed during the Java Boo
 - [X] 1.7: [Antecessor and Successor](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/1.7-antecessor-successor)
 
 **:open_file_folder: 02 | Java Essentials - Loops and conditional statements**
+- [X] 2.1: [Dial-Up Connection](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/2.1-dial-up-connection)
+- [X] 2.2: [Even Numbers](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/2.2-even-numbers)
+- [X] 2.3: [Brazilian States](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/2.3-brazilian-states)
+- [X] 2.4: [Random Numbers](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/2.4-random-numbers)
+
 
 ## :wave: Let's connect!
 Get in touch on [LinkedIn](https://www.linkedin.com/in/barreto-pedro/).
