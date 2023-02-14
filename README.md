@@ -27,7 +27,7 @@ This repository was created to store the exercises developed during the Java Boo
 - [X] 3.2: [Age in days Calculator](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/3.2-age-in-days-calc)
 
 **:open_file_folder: 04 | Object-Oriented Programming - Abstract Class**
-
+- [X] 4.1: [Savings Account](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/4.1-savings-account)
 
 
 
