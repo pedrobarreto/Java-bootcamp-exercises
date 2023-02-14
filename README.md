@@ -23,6 +23,12 @@ This repository was created to store the exercises developed during the Java Boo
 - [X] 2.4: [Random Numbers](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/2.4-random-numbers)
 
 **:open_file_folder: 03 | Java Essentials - Hello World**
+- [X] 3.1: [Average Grade Calculator](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/3.1-average-grade-calc)
+- [X] 3.2: [Age in days Calculator](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/3.2-age-in-days-calc)
+
+**:open_file_folder: 04 | Object-Oriented Programming - Abstract Class**
+
+
 
 
 ## :wave: Let's connect!
