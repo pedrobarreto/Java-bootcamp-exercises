@@ -16,6 +16,8 @@ This repository was created to store the exercises developed during the Java Boo
 - [X] 1.6: [Area Calculator](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/1.6-area-calculator)
 - [X] 1.7: [Antecessor and Successor](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/1.7-antecessor-successor)
 
+**:open_file_folder: 02 | Java Essentials - Loops and conditional statements**
+
 ## :wave: Let's connect!
 Get in touch on [LinkedIn](https://www.linkedin.com/in/barreto-pedro/).
 <br /> 
