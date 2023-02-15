@@ -29,6 +29,17 @@ This repository was created to store the exercises developed during the Java Boo
 **:open_file_folder: 04 | Object-Oriented Programming - Abstract Class**
 - [X] 4.1: [Savings Account](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/4.1-savings-account)
 
+**:open_file_folder: 05 | Object-Oriented Programming -  Getters and Setters**
+- [X] 5.1: [Human Resources](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/5.1-human-resources)
+
+**:open_file_folder: 06 | Object-Oriented Programming -  Encapsulation and Inheritance**
+- [X] 6.1: [Username Generator](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/6.1-username-generator)
+
+**:open_file_folder: 07 | Object-Oriented Programming -  Polymorphism**
+- [X] 7.1: [Polymorphism](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/7.1-polymorphism)
+
+**:open_file_folder: 08 | Object-Oriented Programming -  Interface and Abstract Classes**
+- [X] 8.1: [Farming Game](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/8.1-farming-game)
 
 
 ## :wave: Let's connect!
