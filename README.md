@@ -1,4 +1,4 @@
-# <div align="center"> Java Bootcamp Exercises :books: </div>
+# <div align="center"> Java Bootcamp Exercises :coffee: </div>
   
 
 ## :book: About the repository
@@ -40,6 +40,12 @@ This repository was created to store the exercises developed during the Java Boo
 
 **:open_file_folder: 08 | Object-Oriented Programming -  Interface and Abstract Classes**
 - [X] 8.1: [Farming Game](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/08.1-farming-game)
+
+**:open_file_folder: 09 | Text Manipulation -  Read and Write files**
+- [X] 9.1: [Password Generator](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/09.1-password-generator)
+
+**:open_file_folder: 10 | Text Manipulation -  Dealing with Strings**
+- [X] 10.1: [Text Transform](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/10.1-text-transform)
 
 
 ## :wave: Let's connect!
