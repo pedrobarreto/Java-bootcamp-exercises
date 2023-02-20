@@ -65,6 +65,18 @@ This repository was created to store the exercises developed during the Java Boo
 - [X] 15.1: [Stream Generator](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/15.1-stream-generator)
 - [X] 15.2: [Car Dealership](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/15.2-car-dealership)
 
+**:open_file_folder: 16 | Date and Time**
+- [X] 16.1: [Salary Calculator](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/16.1-salary-calculator)
+- [X] 16.2: [Leap Year](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/16.2-leap-year)
+
+**:open_file_folder: 17 | Managing Java Dependencies - Gradle**
+- [X] 17.1: [Gradle War](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/17.1-gradle-war)
+- [X] 17.2: [Bank Account](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/17.2-bank-account)
+
+**:open_file_folder: 18 | Tests - JUnit5**
+- [X] 18.1: [Human Resources Tests](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/18.1-human-resources-tests)
+- [X] 18.2: [Banking System](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/18.2-banking-system)
+
 
 
 ## :wave: Let's connect!
