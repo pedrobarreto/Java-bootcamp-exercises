@@ -47,6 +47,25 @@ This repository was created to store the exercises developed during the Java Boo
 **:open_file_folder: 10 | Text Manipulation -  Dealing with Strings**
 - [X] 10.1: [Text Transform](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/10.1-text-transform)
 
+**:open_file_folder: 11 | Exceptions -  Try/Catch**
+- [X] 11.1: [Arithmetic Exception](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/11.1-arithmetic-exception)
+- [X] 11.2: [Null Treatment](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/11.2-null-treatment)
+
+**:open_file_folder: 12 | Exceptions -  Creating Custom Exceptions**
+- [X] 12.1: [File Read Exception](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/12.1-file-read-exception)
+- [X] 12.2: [Age Exception](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/12.2-age-exception)
+
+**:open_file_folder: 13 | Collections -  List and Set**
+- [X] 13.1: [Contacts](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/13.1-contacts)
+
+**:open_file_folder: 14 | Collections -  Map**
+- [X] 14.1: [Contacts with Map](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/14.1-contacts-with-map)
+
+**:open_file_folder: 15 | Collections -  Streams**
+- [X] 15.1: [Stream Generator](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/15.1-stream-generator)
+- [X] 15.2: [Car Dealership](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/15.2-car-dealership)
+
+
 
 ## :wave: Let's connect!
 Get in touch on [LinkedIn](https://www.linkedin.com/in/barreto-pedro/).
