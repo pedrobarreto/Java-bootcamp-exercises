@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: testecontainer
+  data:
+    mongodb:
+      uri: mongodb://mongo_db:${MONGO_PORT:27017}/${spring.application.name}
+  profiles:
+    active: local
