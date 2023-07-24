@@ -1,0 +1,363 @@
+---
+openapi: 3.0.3
+info:
+  title: programa-milhas API
+  version: 1.0.0-SNAPSHOT
+paths:
+  /admin/credito:
+    post:
+      tags:
+      - Admin Resource
+      parameters:
+      - name: token
+        in: query
+        schema:
+          type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LancamentoDTO'
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MensagemResult'
+  /admin/resgate:
+    post:
+      tags:
+      - Admin Resource
+      parameters:
+      - name: token
+        in: query
+        schema:
+          type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LancamentoDTO'
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MensagemResult'
+  /admin/saldos:
+    post:
+      tags:
+      - Admin Resource
+      parameters:
+      - name: token
+        in: query
+        schema:
+          type: string
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/SaldoResult'
+  /autenticacao:
+    post:
+      tags:
+      - Autenticacao Resource
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LoginDTO'
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TokenResult'
+  /conta/extrato:
+    get:
+      tags:
+      - Conta Resource
+      parameters:
+      - name: token
+        in: query
+        schema:
+          type: string
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Lancamento'
+  /conta/saldo:
+    get:
+      tags:
+      - Conta Resource
+      parameters:
+      - name: token
+        in: query
+        schema:
+          type: string
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SaldoResult'
+  /dominio/parceiro:
+    get:
+      tags:
+      - Dominio Resource
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Parceiro'
+  /dominio/produto:
+    get:
+      tags:
+      - Dominio Resource
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Produto'
+  /dominio/tipolancamento:
+    get:
+      tags:
+      - Dominio Resource
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/TipoLancamento'
+  /echo:
+    get:
+      tags:
+      - Echo Resource
+      responses:
+        "200":
+          description: OK
+          content:
+            text/plain:
+              schema:
+                type: string
+  /pessoa:
+    post:
+      tags:
+      - Pessoa Resource
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LoginDTO'
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MensagemResult'
+    delete:
+      tags:
+      - Pessoa Resource
+      parameters:
+      - name: token
+        in: query
+        schema:
+          type: string
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MensagemResult'
+  /transacao/resgate-produto:
+    post:
+      tags:
+      - Transacao Resource
+      parameters:
+      - name: token
+        in: query
+        schema:
+          type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ResgateProdutoDTO'
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MensagemResult'
+  /transacao/transferencia:
+    post:
+      tags:
+      - Transacao Resource
+      parameters:
+      - name: token
+        in: query
+        schema:
+          type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TransferenciaDTO'
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MensagemResult'
+components:
+  schemas:
+    Lancamento:
+      type: object
+      properties:
+        id:
+          format: int32
+          type: integer
+        usuario:
+          $ref: '#/components/schemas/Pessoa'
+        tipoLancamento:
+          $ref: '#/components/schemas/TipoLancamento'
+        parceiro:
+          $ref: '#/components/schemas/Parceiro'
+        produto:
+          $ref: '#/components/schemas/Produto'
+        valor:
+          format: int32
+          type: integer
+        descricao:
+          type: string
+        data:
+          format: date
+          type: string
+    LancamentoDTO:
+      type: object
+      properties:
+        usuario:
+          type: string
+        valor:
+          format: int32
+          type: integer
+        idTipoLancamento:
+          format: int32
+          type: integer
+        idParceiro:
+          format: int32
+          type: integer
+        descricao:
+          type: string
+    LoginDTO:
+      type: object
+      properties:
+        login:
+          type: string
+        senha:
+          type: string
+    MensagemResult:
+      type: object
+      properties:
+        mensagem:
+          type: string
+    Parceiro:
+      type: object
+      properties:
+        id:
+          format: int32
+          type: integer
+        descricao:
+          type: string
+    Pessoa:
+      type: object
+      properties:
+        id:
+          format: int32
+          type: integer
+        login:
+          type: string
+        hash:
+          type: string
+    Produto:
+      type: object
+      properties:
+        id:
+          format: int32
+          type: integer
+        parceiro:
+          $ref: '#/components/schemas/Parceiro'
+        valor:
+          format: int32
+          type: integer
+        descricao:
+          type: string
+    ResgateProdutoDTO:
+      type: object
+      properties:
+        idProduto:
+          format: int32
+          type: integer
+        descricao:
+          type: string
+    SaldoResult:
+      type: object
+      properties:
+        idUsuario:
+          format: int32
+          type: integer
+        login:
+          type: string
+        saldo:
+          format: int32
+          type: integer
+    TipoLancamento:
+      type: object
+      properties:
+        id:
+          format: int32
+          type: integer
+        descricao:
+          type: string
+    TokenResult:
+      type: object
+      properties:
+        token:
+          type: string
+    TransferenciaDTO:
+      type: object
+      properties:
+        usuarioDestino:
+          type: string
+        valor:
+          format: int32
+          minimum: 1
+          type: integer
