@@ -1,0 +1,13 @@
+logging:
+  file:
+    name: minhas-series.log
+    path: .logs/minhas-series.log
+spring:
+  datasource:
+    password: vecna
+    url: jdbc:h2:mem:series_database
+    username: strangerthings
+
+server:
+  port: 8080
+
