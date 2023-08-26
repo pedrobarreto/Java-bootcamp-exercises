@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration xmlns="http://logging.apache.org/log4j/2.0/config">
+    <Properties>
+        <Property name="basePath">../log/logs</Property>
+    </Properties>
+    <Appenders>
+        <!-- File Appender -->
+        <File name="FILE" fileName="${basePath}/logging.log" append="true">
+            <PatternLayout pattern="%-5p | %d{yyyy-MM-dd HH:mm:ss} | [%t] %C{3} (%L:%F) - %m %-5p%n " />
+        </File>
+        <!-- Console Appender -->
+        <Console name="STDOUT" target="SYSTEM_OUT">
+            <PatternLayout pattern="%-5p | %d{yyyy-MM-dd HH:mm:ss} | [%t] %C (%L:%F) - %m %-5p%n " />
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Logger name="com.jstobidgata" level="debug" />
+        <Root level="trace">
+            <AppenderRef ref="FILE" />
+        </Root>
+    </Loggers>
+</Configuration>
