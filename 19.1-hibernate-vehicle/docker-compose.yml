@@ -1,0 +1,20 @@
+version: '3.3'
+
+services:
+  # Database
+  mysql:
+    image: mysql
+    volumes:
+      # Define um volume interno do Docker para persistir os dados
+      - my-db:/var/lib/mysql
+      - ./init-mysql.sql:/data/application/init.sql
+    command: --init-file /data/application/init.sql
+    restart: always
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+
+volumes:
+  # Cria o volume interno do Docker
+  my-db:
