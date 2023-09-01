@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+	http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
+	version="2.1">
+	<persistence-unit name="com.trybe.acc.java.hibernate.datacenter">
+	    <description>Hibernate EntityManager Sample</description>
+		<class>com.trybe.acc.java.datacenter.entity.Datacenter</class>
+	    <class>com.trybe.acc.java.datacenter.entity.Servidor</class>
+		<class>com.trybe.acc.java.datacenter.entity.Aplicacao</class>
+	    <exclude-unlisted-classes>true</exclude-unlisted-classes>
+	    <properties>
+	        <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/>
+	        <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+	        <property name="javax.persistence.jdbc.url" value="jdbc:mysql://127.0.0.1:3306/datacenter"/>
+	        <property name="javax.persistence.jdbc.user" value="root"/>
+	        <property name="javax.persistence.jdbc.password" value="root"/>
+			<property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
+	    </properties>
+	</persistence-unit>
+</persistence>
