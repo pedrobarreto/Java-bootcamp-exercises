@@ -76,7 +76,36 @@ This repository was created to store the exercises developed during the Java Boo
 **:open_file_folder: 18 | Tests - JUnit5**
 - [X] 18.1: [Human Resources Tests](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/18.1-human-resources-tests)
 - [X] 18.2: [Banking System](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/18.2-banking-system)
+- [X] 18.3: [ATM System](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/18.3-atm-application)
 
+**:open_file_folder: 19 | ORM - Hibernate**
+- [X] 19.1: [Hibernate Vehicle](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/19.1-hibernate-vehicle)
+- [X] 19.2: [Datacenter Catalogue](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/19.2-datacenter-catalogue)
+- [X] 19.3: [Team management](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/19.3-team-management)
+
+**:open_file_folder: 20 | JAVA - Web**
+- [X] 20.1: [Rest API](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/20.1-rest-api)
+- [X] 20.2: [Search Cars](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/20.2-search-cars)
+- [X] 20.3: [Buzz Warn](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/20.3-buzzwarn)
+- [X] 20.4: [Register Specialties](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/20.4-register-specialties)
+
+**:open_file_folder: 21 | Spring**
+- [X] 21.1: [Spring layers](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/21.1-layers-spring)
+- [X] 21.2: [Dependency Injection](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/21.2-payment-dependency-injection)
+- [X] 21.3: [Travel Plan](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/21.3-travel-plan)
+- [X] 21.4: [Age Calculator](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/21.4-age-calculator)
+- [X] 21.5: [Heroku Calculator](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/21.5-heroku-calculator)
+- [X] 21.6: [Series Organizer](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/21.6-series-organizer)
+
+**:open_file_folder: 22 | Quarkus**
+- [X] 22.1: [Product List](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/22.1-quarkus-product-list)
+- [X] 22.2: [Restaurants Project](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/22.2-restaurants-project)
+- [X] 22.3: [Booking Application](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/22.3-booking-application)
+- [X] 22.4: [Miles Program](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/22.4-miles-program)
+
+**:open_file_folder: 23 | Docker**
+- [X] 23.1: [Docker Tests](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/23.1-docker-tests)
+- [X] 23.2: [Stock Management](https://github.com/pedrobarreto/Java-bootcamp-exercises/tree/main/23.2-stock-management)
 
 
 ## :wave: Let's connect!
